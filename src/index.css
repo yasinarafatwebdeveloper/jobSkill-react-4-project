@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+  font-family: "Playfair Display", serif;
+
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display", serif;
+  
+  }
+
+  p {
+    font-family: "Playfair Display", serif;
+  
+  }
+
+  
+span {
+    font-family: "Playfair Display", serif;
+  
+  }
+
+  
+button {
+    font-family: "Playfair Display", serif;
+  
+  }
+
+  
+div {
+    font-family: "Playfair Display", serif;
+  
+  }
+  
+li {
+    font-family: "Playfair Display", serif;
+  
+  }
+  
+  a{
+    font-family: "Playfair Display", serif;
+  
+  }
