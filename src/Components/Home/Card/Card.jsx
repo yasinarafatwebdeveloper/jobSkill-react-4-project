@@ -18,7 +18,7 @@ const Card = ({card}) => {
     <img
       src={image}
       alt="Shoes"
-      className="rounded-xl w-full h-[459px]" />
+      className="rounded-xl w-full h-[459px] px-3 " />
   </figure>
   <div className="relative">
     <div className='absolute z-30 -top-20 text-white px-4'>

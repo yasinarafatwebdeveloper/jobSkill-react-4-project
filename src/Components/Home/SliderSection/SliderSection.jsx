@@ -110,7 +110,7 @@ import OldSlider from './OldSlider';
                 </div>
                 <div className='w-1/2'>
                 {/* <AutoSlider></AutoSlider> */}
-                <OldSlider></OldSlider>
+                {/* <OldSlider></OldSlider> */}
                 </div>
             </div>
         </div>

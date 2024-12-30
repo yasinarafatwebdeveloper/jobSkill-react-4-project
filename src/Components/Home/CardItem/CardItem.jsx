@@ -20,7 +20,7 @@ const CardItem = () => {
             <p className="w-1/2 text-base font-medium">All three of Rooms Hotels locations are restorations that translate historic locations into places of contemporary comfort. Industrial architecture, salvaged building materials and the unique approach</p>
             </div>
        
-        <div className="grid lg:grid-cols-3 gap-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
             {cards.map((card, index) => {
             
                 if (index === 0) {

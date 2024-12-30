@@ -23,7 +23,7 @@ const BannerSection = () => {
       <div className="absolute -top-14 -left-1">
         <img src={smallLogo} alt="" />
       </div>
-      <div className="absolute -right-0 lg:mr-16 md:mr-0 sm:mr-0 top-80">
+      <div className="absolute w-[200px] h-[200px] sm:w-[70px] sm:h-[70px] md:w-[100px] md:h-[100px] -right-0 lg:mr-16 md:mr-0 sm:mr-0 top-80">
         <img className="" src={rightSideLogo} alt="" />
       </div>
    
