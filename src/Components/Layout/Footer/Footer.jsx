@@ -6,7 +6,9 @@ import logo from"../../../../../react-assignment-job-Skill-client/logo/logo.png"
 const Footer = () => {
 
     return (
-        <footer className="bg-white dark:bg-gray-900 mt-10">
+        <footer className="bg-white dark:bg-gray-900 mt-10"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
         <div className="container p-6 mx-auto">
             <div className="lg:flex">
                 <div className="w-full -mx-6 lg:w-2/5">

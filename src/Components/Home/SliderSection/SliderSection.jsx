@@ -76,7 +76,7 @@ import OldSlider from './OldSlider';
     return (
         <div className='mt-20'>
             <div className='flex'>
-                <div className='w-1/2'>
+                <div className='w-1/2' data-aos="zoom-out-right">
 
           
 
@@ -109,7 +109,7 @@ import OldSlider from './OldSlider';
 {/* } */}
                 </div>
                 <div className='w-1/2'>
-                {/* <AutoSlider></AutoSlider> */}
+                <AutoSlider></AutoSlider>
                 {/* <OldSlider></OldSlider> */}
                 </div>
             </div>

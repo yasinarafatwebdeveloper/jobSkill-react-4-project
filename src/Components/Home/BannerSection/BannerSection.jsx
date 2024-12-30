@@ -10,7 +10,10 @@ import rightSideLogo from"../../../../../react-assignment-job-Skill-client/Image
 
 const BannerSection = () => {
     return (
-        <div className="lg:mt-32 md:mt-32 ">
+      // <div data-aos="zoom-out-up">
+        <div className="lg:mt-32 md:mt-32 "  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
      <div className="hero  min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="relative">
@@ -37,7 +40,9 @@ const BannerSection = () => {
       <img className="absolute" src={smallLogo} alt="" />
     </div> */}
 
-    <div className="lg:w-[755px] h-[795px]">
+    <div className="lg:w-[755px] h-[795px]" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <h1 className="lg:text-8xl md:text-8xl sm:text-3xl">Find the top Hotels nearby</h1>
       <p className="py-6 text-lg">
        Looking for a comfortable and convanient place to call home? Our house rental offers spacious lining areas moderms anemins and prime location.Featuring multiple bedrooms,updates kitchen and cozy living space. its perfect for family and professionals.
@@ -77,6 +82,7 @@ const BannerSection = () => {
 </div>
 
         </div>
+        // </div>
     );
 };
 

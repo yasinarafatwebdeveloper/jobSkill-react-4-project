@@ -38,7 +38,7 @@ drop-shadow-md sticky top-0 left-0 z-50">
       </ul>
     </div>
     {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-    <img className=" xl:w-[181px] xl:h-24 lg:w-[181px] lg:h-24 md:w-[181px] md:h-24 w-[100px] h-14" src={logo} alt="" />
+    <img className=" xl:w-[181px] xl:h-24 lg:w-[181px] lg:h-24 md:w-[181px] md:h-24 sm:w-[100px] sm:h-14 " src={logo} alt="" />
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -55,8 +55,8 @@ drop-shadow-md sticky top-0 left-0 z-50">
 
 
     <ul className="flex lg:px-10 sm:px-5 ">
-    <li className=" font-semibold text-base sm:px-3 px-5"><Link to="/">Login</Link></li>/
-    <li className=" font-semibold text-base sm:px-3 px-5"><Link to="/">Signup</Link></li>
+    <li className=" font-semibold text-base sm:px-2 px-3"><Link to="/">Login</Link></li>/
+    <li className=" font-semibold text-base sm:px-2 px-3"><Link to="/">Signup</Link></li>
     </ul>
  
 

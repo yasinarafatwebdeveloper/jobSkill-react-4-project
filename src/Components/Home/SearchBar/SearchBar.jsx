@@ -8,17 +8,23 @@ const SearchBar = () => {
                 <div className="lg:flex justify-center items-center bg-white lg:shadow-lg p-4 lg:rounded-full justify-between border lg:w-[800px] md:w-full w-full   lg:h-36 mx-auto drop-shadow-2xl absolute  z-[1!important] -top-72">
 
              
-                <div className=" px-4 my-2">
+                <div className=" px-4 my-2"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <label>Check In</label>
                     
                     <input className=" lg:border-0 w-full border border-gray-700 p-4 rounded" type="date" />
                 </div>
-                 <div className=" px-4 my-2">
+                 <div className=" px-4 my-2"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <label>Check Out</label>
                     
                    <input className=" lg:border-0 w-full border border-gray-700  p-4 rounded" type="date" />
                 </div>
-                 <div className=" px-4 my-2">
+                 <div className=" px-4 my-2"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <lebel>AduIts</lebel>
                     <div>
                         <select className="w-full appearance-none  lg:border-0  border border-gray-700 p-4 rounded" name="" id="">
@@ -29,7 +35,9 @@ const SearchBar = () => {
                         </select>
                     </div>
                 </div>
-                 <div className="px-4 my-2">
+                 <div className="px-4 my-2"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <label>Children</label>
                     <div>
                         <select className="w-full appearance-none  lg:border-0  border border-gray-700 p-4 rounded" name="" id="">
@@ -40,7 +48,9 @@ const SearchBar = () => {
                         </select>
                     </div>
                 </div>
-                 <div className="px-4 my-2">
+                 <div className="px-4 my-2"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <label>Rooms</label>
                     <div>
                         <select className="appearance-none  lg:border-0 w-full border border-gray-700 p-4 rounded" name="" id="">

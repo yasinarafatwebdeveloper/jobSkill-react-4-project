@@ -7,7 +7,9 @@ const Card = ({card}) => {
            <div>
            
            </div>
-            <div className=" bg-base-100 relative">
+            <div className=" bg-base-100 relative" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <div className='absolute right-[20px] top-[79px] bg-white rounded-[10px] text-[#CEAF83] font-semibold z-40 px-5 text-[24px]'>
 
          

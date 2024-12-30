@@ -3,7 +3,9 @@ import React from 'react';
 const SingleRoom = ({room}) => {
     const{name,image}=room
     return (
-        <div className='mt-10'>
+        <div className='mt-10'  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
          <div className="card card-side bg-base-100 shadow-xl">
   <figure>
     <img
