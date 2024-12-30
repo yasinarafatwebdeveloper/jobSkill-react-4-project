@@ -55,14 +55,14 @@ drop-shadow-md sticky top-0 left-0 z-50">
 
 
     <ul className="flex lg:px-10 sm:px-5 ">
-    <li className=" font-semibold text-base"><Link to="/">Login</Link></li>/
-    <li className=" font-semibold text-base"><Link to="/">Signup</Link></li>
+    <li className=" font-semibold text-base sm:px-3 px-6"><Link to="/">Login</Link></li>/
+    <li className=" font-semibold text-base sm:px-3 px-6"><Link to="/">Signup</Link></li>
     </ul>
  
 
 
 
-  <button className="btn btn-active bg-[#CEAF83] xl:w-32 h-14 lg:w-32 h-14 md:w-32 h-14 sm:w-7 h-5 w-24 h-20 text-white font-bold rounded-full">Reservation</button>
+  <button className="btn btn-active bg-[#CEAF83] xl:w-32 xl:h-14 lg:w-32 lg:h-14 md:w-32 md:h-14 sm:w-[100px] sm:h-5 w-24 h-20 text-white font-bold rounded-full">Reservation</button>
   </div>
 </div>
         </div>
