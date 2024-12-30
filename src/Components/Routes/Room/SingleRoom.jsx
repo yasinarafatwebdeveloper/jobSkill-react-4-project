@@ -7,6 +7,7 @@ const SingleRoom = ({room}) => {
          <div className="card card-side bg-base-100 shadow-xl">
   <figure>
     <img
+    className='mr-3'
       src={image}
       alt="Movie" />
   </figure>
