@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const SingleRoom = ({room}) => {
     const{name,image}=room
     return (
+      <div>
+        <Helmet>
+          <title> Room page</title>
+        </Helmet>
         <div className='mt-10'  data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
@@ -21,6 +26,7 @@ const SingleRoom = ({room}) => {
     </div>
   </div>
 </div>
+        </div>
         </div>
     );
 };

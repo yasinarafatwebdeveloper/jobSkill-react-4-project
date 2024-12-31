@@ -1,18 +1,24 @@
 import { Link } from "react-router-dom";
 import logo from"../../../../../react-assignment-job-Skill-client/logo/logo.png"
+import { Helmet } from "react-helmet-async";
 
 const Navbar = () => {
 
     const navItems=<>
     
-    <li className="font-bold text-base "><Link to="/">Home</Link></li>
-    <li className="font-bold text-base "><Link to="/about">About</Link></li>
-    <li className="font-bold text-base "><Link to="/rooms">Rooms</Link></li>
-    <li className="font-bold text-base "><Link to="/">Blogs</Link></li>
-    <li className="font-bold text-base "><Link to="/">Page</Link></li>
+    <li className="font-bold text-base px-3 "><Link to="/">Home</Link></li>
+    <li className="font-bold text-base px-3 "><Link to="/about">About</Link></li>
+    <li className="font-bold text-base px-3 "><Link to="/rooms">Rooms</Link></li>
+    <li className="font-bold text-base px-3"><Link to="/blog">Blogs</Link></li>
+    <li className="font-bold text-base px-3"><Link to="/">Page</Link></li>
     </>
     return (
+    <div>
+      <Helmet>
+<title>Home page</title>
+      </Helmet>
         <div className="h-[100px] 
+        
 drop-shadow-md sticky top-0 left-0 z-50">
             <div className="navbar bg-base-100">
   <div className="navbar-start">
@@ -38,7 +44,7 @@ drop-shadow-md sticky top-0 left-0 z-50">
       </ul>
     </div>
     {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-    <img className=" xl:w-[181px] xl:h-24 lg:w-[181px] lg:h-24 md:w-[181px] md:h-24 sm:w-[140px] sm:h-14 w-[100px] h-[50px] " src={logo} alt="" />
+    <img className=" xl:w-[181px] xl:h-24 lg:w-[181px] lg:h-24 md:w-[181px] md:h-24 sm:w-[100px] sm:h-14 w-[40px] h-[60px] " src={logo} alt="" />
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -55,8 +61,8 @@ drop-shadow-md sticky top-0 left-0 z-50">
 
 
     <ul className="flex ">
-    <li className=" lg:font-semibold md:font-semibold sm:font-semibold font-normal text-base sm:px-2 px-3"><Link className="px-0 mx-0" to="/">Login</Link></li>
-    <li className=" lg:font-semibold md:font-semibold sm:font-semibold font-normal text-base sm:px-2 px-3"><Link className="mx-0 my-0" to="/">Signup</Link></li>
+    <li className=" lg:font-semibold md:font-semibold sm:font-semibold font-normal text-base px-2 "><Link className="px-0 mx-0" to="/">Login</Link></li>
+    <li className=" lg:font-semibold md:font-semibold sm:font-semibold font-normal text-base px-2 "><Link className="mx-0 my-0" to="/">Signup</Link></li>
     </ul>
  
 
@@ -66,6 +72,7 @@ drop-shadow-md sticky top-0 left-0 z-50">
   <button className=" px-3 py-3 lg:px-3 lg:py-3 md:px-3 md:py-3 sm:px-4 sm:py-4 bg-[#CEAF83] font-bold rounded-full">Reservation</button>
   </div>
 </div>
+        </div>
         </div>
     );
 };

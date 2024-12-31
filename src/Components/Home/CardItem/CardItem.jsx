@@ -14,7 +14,7 @@ const CardItem = () => {
     }, []);
 
     return (
-        <div>
+        <div className="container mx-auto">
             <div className="flex mb-10">
             <h1 className="w-1/2 font-bold text-3xl">Discover Homeya's Finest Properties For Your Dream Home</h1>
             <p className="w-1/2 text-base font-medium">All three of Rooms Hotels locations are restorations that translate historic locations into places of contemporary comfort. Industrial architecture, salvaged building materials and the unique approach</p>

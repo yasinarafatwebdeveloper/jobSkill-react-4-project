@@ -74,15 +74,15 @@ import OldSlider from './OldSlider';
 // const SliderSection = () => {
     export default function SliderSection() {
     return (
-        <div className='mt-20'>
-            <div className='flex'>
-                <div className='w-1/2' data-aos="zoom-out-right">
+        <div className='mt-20 container mx-auto'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 '>
+                <div className='px-6' data-aos="zoom-out-right">
 
           
 
     <>
       <Swiper
-        spaceBetween={30}
+        spaceBetween={15}
         effect={'fade'}
         navigation={true}
         pagination={{
@@ -108,7 +108,7 @@ import OldSlider from './OldSlider';
   
 {/* } */}
                 </div>
-                <div className='w-1/2'>
+                <div className='overflow-hidden px-6'>
                 <AutoSlider></AutoSlider>
                 {/* <OldSlider></OldSlider> */}
                 </div>

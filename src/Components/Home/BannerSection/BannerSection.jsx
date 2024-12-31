@@ -10,7 +10,8 @@ import rightSideLogo from"../../../../../react-assignment-job-Skill-client/Image
 
 const BannerSection = () => {
     return (
-      // <div data-aos="zoom-out-up">
+   
+      <div className="container mx-auto">
         <div className="lg:mt-32 md:mt-32 "  data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
@@ -26,11 +27,11 @@ const BannerSection = () => {
       <div className="absolute -top-14 -left-1">
         <img src={smallLogo} alt="" />
       </div>
-      <div className="absolute w-[200px] h-[200px]  md:w-[100px] md:h-[100px] -right-0 lg:mr-16 md:mr-0  top-80">
-        <img className="sm:w-[70px] sm:h-[70px] sm:mr-16" src={rightSideLogo} alt="" />
+      <div className="absolute w-auto h-[200px]   md:h-[100px] -right-0   top-80">
+        <img className="sm:w-[70px] sm:h-[70px] " src={rightSideLogo} alt="" />
       </div>
    
-    <div className="lg:w-[645px] h-[795px]">
+    <div className=" h-[795px]">
     <img
       src={image}
       className=" lg:rounded-lg shadow-2xl w-[536px] h-[734px]" />
@@ -82,7 +83,9 @@ const BannerSection = () => {
 </div>
 
         </div>
-        // </div>
+        </div>
+      
+        
     );
 };
 

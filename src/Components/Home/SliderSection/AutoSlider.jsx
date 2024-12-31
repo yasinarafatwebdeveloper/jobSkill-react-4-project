@@ -19,24 +19,24 @@ import logo from"../../../../../react-assignment-job-Skill-client/logo/logo.jpg"
         return (
           <>
             <Swiper
-              slidesPerView={4}
-              centeredSlides={true}
-              spaceBetween={30}
+              slidesPerView={2}
+              // centeredSlides={true}
+              spaceBetween={15}
               grabCursor={true}
               pagination={{
                 clickable: true,
               }}
               autoplay={{
-                delay: 1000,
+                delay: 3000,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay,Pagination]}
               className="mySwiper"
             >
-                <div className='flex overflow-hidden border border-red-600'>
+                {/* <div className='flex overflow-hidden border border-red-600'> */}
               <SwiperSlide>
 
-              <div className="card card-compact bg-base-100 px-5 py-4 my-4 shadow-xl w-[300px] h-[250px]">
+              <div className="card card-compact bg-base-100 px-5 py-4 my-4 shadow-xl  h-[250px]">
          
                 <div className='flex justify-center items-center'>
   <figure>
@@ -83,53 +83,151 @@ import logo from"../../../../../react-assignment-job-Skill-client/logo/logo.jpg"
               </SwiperSlide>
 
 
-                <SwiperSlide>
+              <SwiperSlide>
 
-              <div className="card card-compact bg-base-100 px-5 py-4 my-4 shadow-xl w-[300px] h-[250px]">
-         
-                <div className='flex justify-center items-center'>
-  <figure>
-    <img className='w-20 h-16 rounded-lg'
-      src={logo}
-      alt="logo" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Eila</h2>
-    <p>Product Manager</p>
-    </div>
- </div>
-    {/* <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div> */}
-    <p>Their services exceeded expectations! The design flexibility and cloud performance have truly impressed our team.</p>
+<div className="card card-compact bg-base-100 px-5 py-4 my-4 shadow-xl  h-[250px]">
 
-
-    <div>
-    <div className="rating rating-sm">
-  <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
-  <input
-    type="radio"
-    name="rating-6"
-    className="mask mask-star-2 bg-orange-400"
-    defaultChecked />
-   <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
-  <input
-    type="radio"
-    name="rating-6"
-    className="mask mask-star-2 bg-orange-400"
-    defaultChecked />
-     <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
-  <input
-    type="radio"
-    name="rating-6"
-    className="mask mask-star-2 bg-orange-400"
-    defaultChecked />
-  
+  <div className='flex justify-center items-center'>
+<figure>
+<img className='w-20 h-16 rounded-lg'
+src={logo}
+alt="logo" />
+</figure>
+<div className="card-body">
+<h2 className="card-title">Eila</h2>
+<p>Product Manager</p>
 </div>
-    </div>
+</div>
+{/* <div className="card-actions justify-end">
+<button className="btn btn-primary">Buy Now</button>
+</div> */}
+<p>Their services exceeded expectations! The design flexibility and cloud performance have truly impressed our team.</p>
+
+
+<div>
+<div className="rating rating-sm">
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
 
 </div>
-              </SwiperSlide>
+</div>
+
+</div>
+</SwiperSlide>
+
+ <SwiperSlide>
+
+<div className="card card-compact bg-base-100 px-5 py-4 my-4 shadow-xl  h-[250px]">
+
+  <div className='flex justify-center items-center'>
+<figure>
+<img className='w-20 h-16 rounded-lg'
+src={logo}
+alt="logo" />
+</figure>
+<div className="card-body">
+<h2 className="card-title">Eila</h2>
+<p>Product Manager</p>
+</div>
+</div>
+{/* <div className="card-actions justify-end">
+<button className="btn btn-primary">Buy Now</button>
+</div> */}
+<p>Their services exceeded expectations! The design flexibility and cloud performance have truly impressed our team.</p>
+
+
+<div>
+<div className="rating rating-sm">
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+
+</div>
+</div>
+
+</div>
+</SwiperSlide>
+
+ <SwiperSlide>
+
+<div className="card card-compact bg-base-100 px-5 py-4 my-4 shadow-xl  h-[250px]">
+
+  <div className='flex justify-center items-center'>
+<figure>
+<img className='w-20 h-16 rounded-lg'
+src={logo}
+alt="logo" />
+</figure>
+<div className="card-body">
+<h2 className="card-title">Eila</h2>
+<p>Product Manager</p>
+</div>
+</div>
+{/* <div className="card-actions justify-end">
+<button className="btn btn-primary">Buy Now</button>
+</div> */}
+<p>Their services exceeded expectations! The design flexibility and cloud performance have truly impressed our team.</p>
+
+
+<div>
+<div className="rating rating-sm">
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+<input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
+<input
+type="radio"
+name="rating-6"
+className="mask mask-star-2 bg-orange-400"
+defaultChecked />
+
+</div>
+</div>
+
+</div>
+</SwiperSlide>
+
+
 
 
 
@@ -141,7 +239,7 @@ import logo from"../../../../../react-assignment-job-Skill-client/logo/logo.jpg"
 
            
              
-              </div>
+              {/* </div> */}
               {/* <SwiperSlide>Slide 4</SwiperSlide>
               <SwiperSlide></SwiperSlide> */}
            

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import BannerSection from "../BannerSection/BannerSection";
 import CardItem from "../CardItem/CardItem";
 import SearchBar from "../SearchBar/SearchBar";
@@ -8,6 +9,7 @@ const Home = () => {
     return (
         <div>
             {/* this is home page */}
+            
             <BannerSection></BannerSection>
             <SearchBar></SearchBar>
             <CardItem></CardItem>
