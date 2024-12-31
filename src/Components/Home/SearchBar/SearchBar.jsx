@@ -3,9 +3,9 @@
 import { FaSearch } from "react-icons/fa";
 const SearchBar = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <div className="relative lg:ml-10">
-                <div className="lg:flex justify-center items-center bg-white lg:shadow-lg p-4 lg:rounded-full justify-between border lg:w-[800px] md:w-full w-full   lg:h-36 mx-auto drop-shadow-2xl absolute  z-[1!important] -top-72">
+                <div className="lg:flex justify-center items-center bg-white lg:shadow-lg p-4 lg:rounded-full justify-between border lg:w-[70%] md:w-full w-full   lg:h-36 mx-auto drop-shadow-2xl absolute  z-[1!important] -top-72">
 
              
                 <div className=" px-4 my-2"  data-aos="flip-left"

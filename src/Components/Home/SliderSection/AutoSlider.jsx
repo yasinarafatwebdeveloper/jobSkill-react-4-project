@@ -19,9 +19,25 @@ import logo from"../../../../../react-assignment-job-Skill-client/logo/logo.jpg"
         return (
           <>
             <Swiper
-              slidesPerView={2}
+              // slidesPerView={2}
+
               // centeredSlides={true}
-              spaceBetween={15}
+              // spaceBetween={15}
+
+              breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+        }}
               grabCursor={true}
               pagination={{
                 clickable: true,
