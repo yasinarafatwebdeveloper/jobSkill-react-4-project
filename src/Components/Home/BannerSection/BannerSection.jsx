@@ -11,7 +11,7 @@ import rightSideLogo from"../../../../../react-assignment-job-Skill-client/Image
 const BannerSection = () => {
     return (
    
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-6">
         <div className="lg:mt-32 md:mt-32 "  data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
